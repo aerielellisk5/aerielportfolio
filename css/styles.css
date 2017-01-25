@@ -3,24 +3,34 @@
   padding: 0px; }
 
 body {
-  background-color: black; }
+  background-color: #00CED1; }
 
 #nav {
-  background-color: #00CED1; }
+  margin-bottom: 67px; }
   #nav ul {
-    text-align: center; }
+    position: fixed;
+    overflow: hidden;
+    text-align: center;
+    width: 100%;
+    top: 0;
+    background-color: #00CED1; }
     #nav ul li {
       display: inline-block;
-      padding: 5px;
+      padding: 20px;
       margin: 20px;
       width: 15%; }
       #nav ul li a {
         text-decoration: none;
         color: white; }
 
+#nav li:hover {
+  color: red;
+  border: 2px solid white; }
+
 .content {
   height: 500px;
-  width: 100%; }
+  width: 100%;
+  padding-top: 70px; }
 
 #About_Me {
   background-color: red; }

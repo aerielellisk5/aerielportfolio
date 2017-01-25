@@ -8,16 +8,21 @@ $white: #FFFFFF;
   padding:0px;
 }
 body{
-  background-color: black;
+  background-color:$turquoise;
 }
 
 #nav{
-  background-color: $turquoise;
+  margin-bottom:67px;
   ul{
+    position:fixed;
+    overflow: hidden;
     text-align: center;
+    width:100%;
+    top:0;
+    background-color:$turquoise;
     li{
       display:inline-block;
-      padding:5px;
+      padding:20px;
       margin:20px;
       width:15%;
       a{
@@ -27,10 +32,20 @@ body{
     }
   }
 }
+#nav li{
+  &:hover{
+    color:red;
+    border:2px solid white;
+  }
+}
+
+
 
 .content{
   height:500px;
-  width:100%
+  width:100%;
+  padding-top:70px;
+
 }
 
 #About_Me{
@@ -43,5 +58,5 @@ body{
   background-color: yellow
 }
 #Resume{
-  background-color:purple; 
+  background-color:purple;
 }
