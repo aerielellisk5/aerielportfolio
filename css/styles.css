@@ -24,22 +24,24 @@ body {
         color: white; }
 
 #nav li:hover {
-  color: red;
-  border: 2px solid white; }
+  box-shadow: 0px 0px 10px 2px white; }
+
+#nav li:active {
+  background: red; }
 
 .content {
   height: 500px;
   width: 100%;
   padding-top: 70px; }
 
-#About_Me {
+#me {
   background-color: red; }
 
-#Projects {
+#projects {
   background-color: blue; }
 
-#Contact {
+#contact {
   background-color: yellow; }
 
-#Resume {
+#resume {
   background-color: purple; }
