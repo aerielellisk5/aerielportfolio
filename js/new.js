@@ -9,10 +9,12 @@ function highlight_navlink(linkname){
   var contact = document.getElementById('link_contact');
   var resume = document.getElementById('link_resume');
 
-  // console.log(me);
-  // console.log(projects);
-  // console.log(contact);
-  // console.log(resume);
+
+  // remove the active class if any of them have it!
+
+
+
+
 
   // var array = [me, projects, contact, resume];
   //
