@@ -1,15 +1,33 @@
 // Getting the nav bar to higlight on the hover
 function highlight_navlink(linkname){
-
+  document.getElementById(linkname);
   console.log(linkname)
+  // grab all of the ids of the individual links
   linkname.className += " active"
-  console.log(linkname)
+  var me = document.getElementById('link_me');
+  var projects = document.getElementById('link_projects');
+  var contact = document.getElementById('link_contact');
+  var resume = document.getElementById('link_resume');
+
+  // console.log(me);
+  // console.log(projects);
+  // console.log(contact);
+  // console.log(resume);
+
+  // var array = [me, projects, contact, resume];
+  //
+  // for (var i = 0; i < array.length; i++){
+  //   // console.log(array[i]);
+  //   if( array[i].classList.contains("active") ){
+  //     console.log("i contain active");
+  //     console.log(array[i]);
+  //   }
+  //   else{
+  //
+  //   }
+  //
+  //
+  // }
+
 
 }
-
-// so basically I think I know how to add an active class
-// I first need to remove the active class from all of the navlinks
-// then i need to add the "active" class to the nav link that was clicked
-// for some reason that background-color doesnt stay which is weird
-// need to figure out why it wont stay...
-// PROGRESS!! =)
